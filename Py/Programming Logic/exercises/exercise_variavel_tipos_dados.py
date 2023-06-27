@@ -1,0 +1,13 @@
+nome = str('Ivan')
+sobrenome = str('Campaneli')
+idade = int(28)
+ano_nascimento = int(2023 - idade)
+maior_idade = bool(idade >= 18)
+altura_metros = float(1.94)
+
+print('Nome:', nome)
+print('Sobrenome:', sobrenome)
+print('Idade:', idade)
+print('Ano de Nascimento:', ano_nascimento)
+print('É maior de idade?', maior_idade)
+print('Altura em metros:', altura_metros)
